@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	basics.MapDemo()
+	basics.InitDemo()
 }
