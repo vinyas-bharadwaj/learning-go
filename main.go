@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/vinyas-bharadwaj/learning-go/basics"
+	"github.com/vinyas-bharadwaj/learning-go/intermediate"
 )
 
 func main() {
-	basics.InitDemo()
+	intermediate.InterfaceDemo()
 }
