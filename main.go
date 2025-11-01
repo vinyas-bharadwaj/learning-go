@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	intermediate.FileDemo()
+	intermediate.JSONDemo()
 }

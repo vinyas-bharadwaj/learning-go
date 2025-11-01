@@ -7,7 +7,7 @@ import (
 
 func sqrt(num float64) (float64, error) {
 	if num < 0 {
-		return 0, errors.New("Math Error: Square root of a negative number")
+		return 0, errors.New("math error: Square root of a negative number")
 	}
 
 	// Assume we are computing the square root
@@ -37,8 +37,6 @@ func ErrorsDemo() {
 	if err != nil {
 		fmt.Println(err)
 	}
-
-
 }
 
 // Note that go's default package has an error interface which implements a single method called 'Error'
@@ -68,5 +66,5 @@ func readData() error {
 }
 
 func readConfig() error {
-	return errors.New("Config Error")
+	return errors.New("config error")
 }

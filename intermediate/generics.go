@@ -52,9 +52,9 @@ func GenericsDemo() {
 
 	stk.display()
 
-	ele, ok := stk.pop()
-	ele2, ok := stk.pop()
-	ele3, ok := stk.pop()
+	ele, _ := stk.pop()
+	ele2, _ := stk.pop()
+	ele3, _ := stk.pop()
 	ele4, ok := stk.pop()
 
 	fmt.Println(ele, ok)
