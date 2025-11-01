@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	intermediate.GenericsDemo()
+	intermediate.FileDemo()
 }
