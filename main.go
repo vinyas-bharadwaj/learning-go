@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/vinyas-bharadwaj/learning-go/intermediate"
+	"github.com/vinyas-bharadwaj/learning-go/advanced"
 )
 
 func main() {
-	intermediate.JSONDemo()
+	advanced.ChannelSyncDemo()
 }
