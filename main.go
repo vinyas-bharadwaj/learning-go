@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	advanced.ChannelSyncDemo()
+	advanced.ContextDemo()
 }
