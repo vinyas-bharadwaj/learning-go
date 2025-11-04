@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	advanced.ContextDemo()
+	advanced.WaitGroupsDemo()
 }
