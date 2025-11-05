@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	advanced.WaitGroupsDemo()
+	advanced.FixedWindowCounterDemo()
 }
