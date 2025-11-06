@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	advanced.FixedWindowCounterDemo()
+	advanced.StatefulGoroutinesDemo()
 }
