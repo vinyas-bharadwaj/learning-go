@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	advanced.StatefulGoroutinesDemo()
+	advanced.SyncPoolDemo()
 }
